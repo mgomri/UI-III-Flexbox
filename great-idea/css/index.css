@@ -63,4 +63,110 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/************Copy and paste your work from yesterday here and start to refactor into flexbox **********/
+/*****************************************************************************************************/
+
+.outer-container{
+	width: 80%;
+	margin: auto;
+}
+
+
+.nav-bar{
+
+	display: flex;
+	justify-content: space-between;
+	width:99%;
+	margin: 3% 0;
+}
+
+a{
+	text-decoration: none;
+		
+}
+
+
+.header h1{
+	text-align:center;
+}
+
+
+.innovation{
+	margin:5% auto;
+	display:block;
+	
+	
+}
+
+.innovation h1{
+	font-size:600%;
+	display: flex;
+	width:50%;
+	margin-bottom:0;
+	margin-top:5%;
+	
+}
+
+.btn{
+	padding:2%;
+	width:35%;
+	margin-top:0;
+}
+
+
+
+.innovation .code-snippet{
+	display: flex;
+	width:35%;
+	padding: 1%;
+	margin-left:55%;
+	margin-bottom:5%;
+	
+}
+
+
+
+
+.above-img{
+	
+	display: flex;
+	width:45%;
+	margin-bottom:4%; 
+}
+
+ 
+.above-img.one{
+	margin-right:9.5%;
+}
+
+.middle-img{
+	
+	width: 100%;
+	margin-bottom:4%;
+}
+
+.below-img {
+	display: flex;
+	width:30%;
+	margin-bottom:4%;
+}
+
+.below-img.one, .below-img.two{
+	margin-right:4.5%;
+}
+
+.footer{
+	margin-bottom:8%;
+}
+
+.footer span{
+	line-height: 2;
+}
+
+.footer .credits{
+
+	width:20%;
+	margin:3% auto;
+	
+	
+}
