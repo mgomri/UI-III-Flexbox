@@ -66,6 +66,9 @@ h1, h2, h3, h4, h5 {
 /************Copy and paste your work from yesterday here and start to refactor into flexbox **********/
 /*****************************************************************************************************/
 
+
+
+
 .outer-container{
 	width: 80%;
 	margin: auto;
@@ -75,7 +78,7 @@ h1, h2, h3, h4, h5 {
 .nav-bar{
 
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	width:99%;
 	margin: 3% 0;
 }
@@ -86,87 +89,80 @@ a{
 }
 
 
-.header h1{
-	text-align:center;
+.innovation{
+	margin: 5% auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: start;
+	align-items: center;
+	
 }
 
-
-.innovation{
-	margin:5% auto;
-	display:block;
-	
+.innovation-child{
+	display:flex;
+	flex-direction: column;
+	width:55%;
+	margin-left:5%;
 	
 }
 
 .innovation h1{
 	font-size:600%;
-	display: flex;
-	width:50%;
-	margin-bottom:0;
-	margin-top:5%;
+	height:75%;
+	text-align:center;
 	
+			
 }
 
 .btn{
+	
+	width:25%;
 	padding:2%;
-	width:35%;
-	margin-top:0;
+	margin:auto;
 }
-
 
 
 .innovation .code-snippet{
-	display: flex;
-	width:35%;
-	padding: 1%;
-	margin-left:55%;
-	margin-bottom:5%;
-	
+	width:30%;
 }
 
+.contents{
+	display:flex;
+	justify-content:space-between;
+	margin:4% 0;
+}
 
-
-
-.above-img{
-	
-	display: flex;
+.features{
 	width:45%;
-	margin-bottom:4%; 
 }
 
- 
-.above-img.one{
-	margin-right:9.5%;
+.about{
+	width:50%;
 }
+
 
 .middle-img{
 	
 	width: 100%;
-	margin-bottom:4%;
 }
 
-.below-img {
-	display: flex;
-	width:30%;
-	margin-bottom:4%;
-}
-
-.below-img.one, .below-img.two{
-	margin-right:4.5%;
+.services, .products, .vision {
+	
+	width:30%;	
 }
 
 .footer{
-	margin-bottom:8%;
+	margin:4%;
+}
+.footer span{
+	line-height:2;
 }
 
-.footer span{
-	line-height: 2;
-}
 
 .footer .credits{
 
 	width:20%;
-	margin:3% auto;
+	margin:4% auto;
 	
 	
 }
